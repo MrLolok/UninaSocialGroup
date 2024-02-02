@@ -1,0 +1,12 @@
+{
+  "hostname": "localhost",
+  "port": 5432,
+  "database": "unina",
+  "driver": "org.postgresql.Driver",
+  "username": "postgres",
+  "password": "password",
+  "options": {
+    "autoReconnect": true,
+    "useSSL": false
+  }
+}

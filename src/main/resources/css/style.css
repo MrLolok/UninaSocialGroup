@@ -1,0 +1,164 @@
+.root {
+    -red: #ef6179
+}
+
+.scroll-bar:horizontal .track, .scroll-bar:vertical .track {
+    -fx-background-color: white;
+}
+
+.scroll-bar:vertical .thumb, .scroll-bar:horizontal .thumb {
+    -fx-cursor: hand;
+}
+
+.scroll-bar:vertical .thumb, .scroll-bar:horizontal .thumb {
+    -fx-background-color: -red;
+}
+
+.scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button {
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-border-radius: 8;
+    -fx-border-color: transparent;
+}
+
+.grid {
+    -fx-background-color: white;
+    -fx-padding: 8 12 8 12;
+}
+
+.verdana {
+    -fx-font-family: Verdana;
+}
+
+.bold {
+    -fx-font-weight: bold;
+}
+
+.shadow {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+.username {
+    -fx-text-fill: -red;
+    -fx-font-size: 20;
+    -fx-background-color: white;
+    -fx-padding: 4 32;
+    -fx-border-radius: 20;
+}
+
+.header {
+    -fx-spacing: 12;
+}
+
+.header .ikonli-font-icon {
+    -fx-icon-color: -red;
+    -fx-icon-size: 36;
+}
+
+.title {
+    -fx-fill: -red;
+    -fx-font-size: 32;
+}
+
+.sidebar {
+    -fx-background-color: linear-gradient(to right,  #fbd786, #f7797d);
+    -fx-padding: 0 50;
+}
+
+.sidebar-link, .sidebar-logout {
+    -fx-font-smoothing-type: LCD;
+    -fx-cursor: HAND;
+}
+
+.sidebar-link {
+    -fx-fill: white;
+    -fx-font-size: 20;
+}
+
+.sidebar-logout {
+    -fx-fill: #f6f6f6;
+    -fx-text-alignment: CENTER;
+    -fx-font-size: 12;
+}
+
+.group-header .group-name {
+    -fx-fill: white;
+    -fx-font-family: Verdana;
+    -fx-font-weight: bold;
+    -fx-font-size: 32;
+    -fx-font-smoothing-type: LCD;
+}
+
+.group-header .group-icon {
+    -fx-icon-color: white;
+    -fx-icon-size: 36;
+}
+
+.group-header {
+    -fx-background-color: -red;
+    -fx-background-radius: 12;
+}
+
+.group-header-button {
+    -fx-text-fill: -red;
+    -fx-background-color: white;
+    -fx-text-alignment: CENTER;
+    -fx-font-family: Verdana;
+    -fx-font-weight: bold;
+    -fx-font-size: 12;
+    -fx-cursor: HAND;
+    -fx-padding: 2 16;
+}
+
+.rounded {
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-padding: 16 24;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+.like-button, .comment-button {
+    -fx-font-family: Verdana;
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-border-color: transparent;
+    -fx-padding: 4 24;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+    -fx-cursor: HAND;
+}
+
+.like-button {
+    -fx-text-fill: #ef6179;
+    -fx-background-color: white;
+}
+
+.like-button .ikonli-font-icon {
+    -fx-icon-color: -red;
+}
+
+.comment-button {
+    -fx-text-fill: white;
+    -fx-background-color: #ef6179;
+}
+
+.delete-button {
+    -fx-border-width: 0;
+    -fx-text-fill: #9d9d9d;
+    -fx-font-size: 12;
+    -fx-background-color: white;
+    -fx-cursor: HAND;
+}
+
+.delete-button .ikonli-font-icon {
+    -fx-icon-color: #9d9d9d;
+    -fx-icon-size: 12;
+}

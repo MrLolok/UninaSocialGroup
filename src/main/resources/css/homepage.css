@@ -1,0 +1,45 @@
+.search {
+    -fx-background-color: #f6f6f6;
+    -fx-border-color: #ddd;
+    -fx-border-width: 3;
+    -fx-font-size: 16;
+}
+
+.group-access-button {
+    -fx-border-color: transparent;
+}
+
+.group-card {
+     -fx-background-color: white;
+     -fx-background-radius: 8;
+     -fx-padding: 16 24;
+ }
+
+.group-tag {
+    -fx-text-fill: #f39772;
+    -fx-background-color: white;
+    -fx-padding: 2 16;
+}
+
+.group-properties {
+    -fx-alignment: CENTER_LEFT;
+    -fx-spacing: 12;
+}
+
+.group-access-button {
+    -fx-background-color: -red;
+    -fx-padding: 4 24;
+    -fx-font-size: 16;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+.group-tags-icon, .group-property-icon {
+    -fx-icon-color: -red;
+    -fx-icon-size: 18;
+}
+
+.calendar {
+    -fx-icon-color: #c9c9c9;
+    -fx-icon-size: 18;
+}

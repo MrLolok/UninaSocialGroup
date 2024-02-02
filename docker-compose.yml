@@ -1,0 +1,13 @@
+version: "3"
+services:
+  database:
+    image: postgres
+    volumes:
+      - "database-volume:/var/lib/postgres"
+    environment:
+      - POSTGRES_DB=${DATABASE_NAME}
+      - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
+    ports:
+      - "${DATABASE_PORT}:5432"
+volumes:
+  database-volume:

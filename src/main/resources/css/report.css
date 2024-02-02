@@ -1,0 +1,54 @@
+.group-report-date-picker {
+    -fx-background-color: white;
+    -fx-background-radius: 20 0 0 20;
+    -fx-border-width: 0;
+    -fx-highlight-fill: transparent;
+    -fx-highlight-text-fill: transparent;
+    -fx-prompt-text-fill: transparent;
+}
+
+.group-report-date-picker .arrow-button {
+    -fx-border-width: 0;
+    -fx-background-color: -red;
+}
+
+.group-report-date-picker .arrow-button .arrow {
+    -fx-background-color: white;
+    -fx-font-size: 16;
+}
+
+.group-report-date-picker > .text-field {
+    -fx-background-radius: 20 0 0 20;
+    -fx-border-width: 0;
+    -fx-border-insets: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 4 12;
+}
+
+.report-row {
+    -fx-spacing: 24;
+}
+
+.report-card {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-padding: 16 24;
+}
+
+.report-card .ikonli-font-icon {
+    -fx-icon-color: #4e4e4e;
+    -fx-icon-size: 26;
+}
+
+.report-result {
+    -fx-fill: -red;
+    -fx-font-size: 16;
+}
+
+.reports-wrapper, .reports {
+    -fx-background-color: white;
+}
+
+.reports {
+    -fx-padding: 24;
+}
