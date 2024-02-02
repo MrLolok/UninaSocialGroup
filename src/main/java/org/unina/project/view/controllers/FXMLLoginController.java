@@ -4,6 +4,8 @@ import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import org.unina.project.App;
 import org.unina.project.social.entities.users.User;
 import org.unina.project.social.sessions.Session;
@@ -41,6 +43,12 @@ public class FXMLLoginController {
             Session.getGlobalSession().setUser(user.get());
             App.getInstance().setScene(SceneType.HOMEPAGE.getScene());
         }
+    }
+
+    @FXML
+    private void pressLoginButton(KeyEvent event) {
+        if (event.getCode() == KeyCode.ENTER)
+            login();
     }
 
     private void warnLoginFailed(String reason, String content) {

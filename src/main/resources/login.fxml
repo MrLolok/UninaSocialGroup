@@ -25,7 +25,7 @@
             </VBox.margin>
         </PasswordField>
         <Button styleClass="login-button" prefWidth="150.0"
-                text="Accedi" textAlignment="CENTER" textFill="#ef6179" onAction="#login">
+                text="Accedi" textAlignment="CENTER" textFill="#ef6179" onAction="#login" onKeyPressed="#pressLoginButton">
             <VBox.margin>
                 <Insets bottom="16.0" top="16.0"/>
             </VBox.margin>
