@@ -4,8 +4,6 @@ import org.jetbrains.annotations.Nullable;
 import org.unina.project.social.entities.groups.Group;
 import org.unina.project.social.entities.users.User;
 
-import java.sql.Timestamp;
-
 /**
  * Questa classe rappresenta una sessione di utilizzo della piattaforma.
  * Da qui è possibile recuperare l'utente che ha effettuato l'accesso in
@@ -38,18 +36,6 @@ public interface Session {
     @Nullable Group getGroup();
 
     /**
-     * Ottieni la data e l'ora di quando è iniziata la sessione.
-     * @return inizio sessione
-     */
-    @Nullable Timestamp getStart();
-
-    /**
-     * Ottieni la data e l'ora di quando è terminata la sessione.
-     * @return termine sessione
-     */
-    @Nullable Timestamp getEnd();
-
-    /**
      * Imposta l'utente associato a questa sessione.
      * @param user da impostare
      */
@@ -61,20 +47,6 @@ public interface Session {
      * @param group da impostare
      */
     void setGroup(@Nullable Group group);
-
-
-    /**
-     * Imposta la data e l'ora in cui è iniziata questa sessione.
-     * @param start da impostare
-     */
-    void setStart(@Nullable Timestamp start);
-
-
-    /**
-     * Imposta la data e l'ora in cui è terminata questa sessione.
-     * @param end da impostare
-     */
-    void setEnd(@Nullable Timestamp end);
 
     /**
      * Reimposta con i valori default questa sessione.
